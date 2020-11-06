@@ -3,6 +3,11 @@
      src: url('font/Audrey/Audrey-Normal.otf');
  }
  
+ @font-face {
+     font-family: 'Alice';
+     src: url('font/Alice/Alice-Regular.ttf');
+ }
+ 
  body,
  html {
      height: 100%;
@@ -53,6 +58,10 @@
  
  .pound {
      font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .modal {
+     font-family: 'Alice';
  }
  
  .close {
