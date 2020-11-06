@@ -1,0 +1,68 @@
+ @font-face {
+     font-family: 'Audrey';
+     src: url('font/Audrey/Audrey-Normal.otf');
+ }
+ 
+ body,
+ html {
+     height: 100%;
+     font-family: 'Audrey';
+ }
+ 
+ .bg {
+     height: 100%;
+     background-image: url('images/piano.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ h3 {
+     color: #d2c9c0;
+ }
+ 
+ .btn {
+     font-size: 13px !important;
+ }
+ 
+ .bottomRow {
+     position: absolute;
+     bottom: 0;
+ }
+ 
+ .info {
+     color: #d2c9c0;
+ }
+ 
+ ul {
+     list-style-type: none;
+ }
+ 
+ .headerInfo {
+     background-color: #05070a;
+ }
+ 
+ .pound {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .close {
+     text-shadow: none !important;
+ }
+ 
+ .studentsTickets {
+     margin-left: 1.5px;
+ }
+ 
+ .btn-secondary {
+     background-color: black;
+ }
+ 
+ @media (max-width: 718px) {
+     h3 {
+         font-size: 59px !important;
+     }
+     .pt-3 {
+         padding-top: 0 !important;
+     }
+ }
