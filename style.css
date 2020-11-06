@@ -38,6 +38,10 @@
      color: #010101;
  }
  
+ .btn-dark {
+     background-color: #010101;
+ }
+ 
  ul {
      list-style-type: none;
  }
