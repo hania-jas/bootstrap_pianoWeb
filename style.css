@@ -34,6 +34,10 @@
      color: #d2c9c0;
  }
  
+ .blockquote-footer {
+     color: #010101;
+ }
+ 
  ul {
      list-style-type: none;
  }
